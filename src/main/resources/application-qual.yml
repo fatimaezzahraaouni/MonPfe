@@ -1,0 +1,9 @@
+server:
+  port: 8085
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/phpmyadmin/index.php?route=/database/structure&db=panier
+    username: root
+    password:
